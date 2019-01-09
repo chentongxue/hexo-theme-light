@@ -1,5 +1,5 @@
 <script src="//cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
-<script src="<%- config.root %>js/jquery.imagesloaded.min.js"></script>
+<script src="//cdn.staticfile.org/jquery.imagesloaded/2.1.0/jquery.imagesloaded.min.js"></script>
 <script src="<%- config.root %>js/gallery.js"></script>
 
 <% if (config.disqus_shortname){ %>
@@ -17,8 +17,8 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
 <% } %>
 
 <% if (theme.fancybox){ %>
-<link rel="stylesheet" href="<%- config.root %>fancybox/jquery.fancybox.css" media="screen" type="text/css">
-<script src="<%- config.root %>fancybox/jquery.fancybox.pack.js"></script>
+<link rel="stylesheet" href="//cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.css" media="screen" type="text/css">
+<script src="//cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 <script type="text/javascript">
 (function($){
   $('.fancybox').fancybox();
