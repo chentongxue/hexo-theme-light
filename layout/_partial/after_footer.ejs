@@ -25,3 +25,6 @@ var disqus_shortname = '<%= config.disqus_shortname %>';
 })(jQuery);
 </script>
 <% } %>
+<% if (config.cnzzid) { %>
+<div style="display: none"><script src="https://s5.cnzz.com/z_stat.php?id=<%= config.cnzzid %>&web_id=<%= config.cnzzid %>"></script></div>
+<% } %>
